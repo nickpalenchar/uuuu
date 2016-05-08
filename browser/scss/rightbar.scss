@@ -12,6 +12,7 @@ rightbar {
     input {
       width: 100px;
       height: 28px;
+      text-align: center;
     }
     button.btn.btn-default {
       background: transparent;
@@ -19,6 +20,9 @@ rightbar {
       height: 28px;
       padding: 0 10px;
       margin-left: 12px;
+      &:hover {
+        background: $accentColor;
+      }
     }
   }
   .list-item {
