@@ -1,0 +1,83 @@
+navbar {
+
+  display: block;
+  background: white;
+  border-bottom: 1px solid black;
+  box-shadow: 1px 1px 14px -3px black;
+
+  .container {
+    width: 97%;
+    height: 100%;
+    max-width: 1340px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    border-color: transparent;
+    >:nth-child(1) {
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      flex: 10;
+    }
+    .user {
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+    }
+    .club-title {
+      font-family: 'Ovo', serif;
+      padding-top: 6px;
+      font-size: 32px;
+      height: 100%;
+    }
+  }
+
+  fullstack-logo {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 40px;
+  }
+
+  a {
+    color: #fafafa;
+    font-size: 16px;
+  }
+
+  .nav > li > a {
+    cursor: pointer;
+    transition: color 0.2s;
+    &.active {
+      font-weight: bold;
+    }
+    &:hover {
+      background: none;
+      font-weight: bold;
+    }
+    &:focus {
+      background: none;
+    }
+  }
+
+  .login-button {
+    float: right;
+    border: 1px solid black;
+    margin-top: 10px;
+    background: none;
+    outline: none !important;
+  }
+
+  .welcome {
+    float: right;
+    margin-top: 12px;
+    span {
+      color: black;
+      font-size: 16px;
+      margin-right: 5px;
+    }
+    a {
+      color: #f30046;
+      cursor: pointer;
+    }
+  }
+
+}

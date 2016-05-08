@@ -1,0 +1,49 @@
+@import "./_color.scss";
+
+rightbar {
+  padding: 24px 16px 0;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.68);
+  width: 220px !important;
+  max-width: 220px;
+  flex: 3;
+  background: $tertiaryColor;
+  .update-page {
+    input {
+      width: 100px;
+      height: 28px;
+    }
+    button.btn.btn-default {
+      background: transparent;
+      border-color: black;
+      height: 28px;
+      padding: 0 10px;
+      margin-left: 12px;
+    }
+  }
+  .list-item {
+
+    &.status {
+      font-size: 20px;
+      span {
+        font-family: 'Ovo', serif;
+        font-weight: bold;
+        padding-left: 4px;
+      }
+    }
+
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 220px;
+    .icon {
+      width: 28px;
+      margin: 0 8px 0 0;
+    }
+    &.subheader {
+      border-bottom: 1px solid #D7CCC8;
+      margin: 0 0 0 -16px;
+      padding-left: 16px;
+    }
+  }
+}

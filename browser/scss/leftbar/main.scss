@@ -1,0 +1,26 @@
+@import "../_color.scss";
+
+leftbar {
+  padding: 24px 16px 0;
+  height: 100%;
+  color: #fafafa;
+  width: 220px !important;
+  max-width: 220px;
+  flex: 3;
+  background: $secondaryColor;
+  .list-item {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 220px;
+    .icon {
+      width: 28px;
+      margin: 0 8px 0 0;
+    }
+    &.subheader {
+      border-bottom: 1px solid #D7CCC8;
+      margin: 0 0 0 -16px;
+      padding-left: 16px;
+    }
+  }
+}
